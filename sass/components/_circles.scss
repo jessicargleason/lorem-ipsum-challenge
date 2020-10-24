@@ -1,5 +1,8 @@
 
 .circles svg .lines {
     transform: translate(0,100px);
+}
+
+.circles.in-view svg .lines {
     animation: lines-up 1s ease-in forwards;
 }

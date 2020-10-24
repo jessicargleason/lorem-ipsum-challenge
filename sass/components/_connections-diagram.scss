@@ -1,11 +1,14 @@
 
 .connections-diagram svg #connecting-lines path {
     opacity: 0;
-    animation: fade-in ease-in 1s forwards;
+}
+
+.connections-diagram.in-view svg #connecting-lines path {
+    animation: fade-in ease-in .8s forwards;
 }
 
 @for $i from 1 through 4 {
     .connections-diagram svg #connecting-lines path:nth-child(#{$i}) {
-        animation-delay: .5s * $i;
+        animation-delay: .3s * $i;
     }
 }

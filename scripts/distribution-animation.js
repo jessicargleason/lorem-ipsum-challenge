@@ -2,7 +2,7 @@
     const yellowLines = document.getElementById("yellow-lines");
     const blackLines = document.getElementById("black-lines");
     const blueLines = document.getElementById("blue-lines");
-    console.log(blueLines);
+
     function animateLines(collection) {
         const lines = collection.getElementsByTagName("path");
         //create a greensock timeline that repeats forever

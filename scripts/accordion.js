@@ -1,7 +1,6 @@
 //bare bones accordion functionality
 (function accordionInit() {
     const buttons = document.getElementsByClassName("js-accordion-button");
-    console.log(buttons);
     const toggle = function() {
         if (this.getAttribute("aria-expanded") === "true") {
             this.setAttribute("aria-expanded","false");
