@@ -2,7 +2,8 @@
         "base",
         "typography",
         "links",
-        "lists";
+        "lists",
+        "animations";
 
 @import "components/header",
         "components/footer",
@@ -10,4 +11,7 @@
         "components/circles",
         "components/diagram-list",
         "components/accordion",
-        "components/connections-diagram";
+        "components/connections-diagram",
+        "components/content-image-block",
+        "components/quotation",
+        "components/brick-stack";

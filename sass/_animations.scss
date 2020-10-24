@@ -1,0 +1,18 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes lines-up {
+    0% {
+        transform: translate(0,100px);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}

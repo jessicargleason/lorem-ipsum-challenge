@@ -1,0 +1,22 @@
+.brick-stack {
+    position: absolute;
+}
+
+.brick-stacks svg {
+    //hide all but the first brick in each stack to begin with
+    .red-brick, .black-brick, .yellow-brick {
+        opacity: 0;
+    }
+    //when a stack comes into focus, animate on the hidden bricks
+    .is-selected {
+        .red-brick, .black-brick, .yellow-brick {
+            animation: fade-in ease-in .5s forwards;
+        }
+        .black-brick {
+            animation-delay: .2s;
+        }
+        .yellow-brick {
+            animation-delay: .4s;
+        }
+    }
+}

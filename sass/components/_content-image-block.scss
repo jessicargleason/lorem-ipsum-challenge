@@ -1,0 +1,9 @@
+.content-image-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content-image-block__image {
+        text-align: center;
+        flex-basis: 33%;
+    }
+}

@@ -2,6 +2,9 @@
     position: absolute;
     margin-top: -50px;
     margin-left: 50px;
+    svg .line-group path {
+        opacity: 0;
+    }
 }
 
 //space added to surrounding sections to give room for the distribution diagram
@@ -11,13 +14,4 @@
 
 .distribution-diagram--top-space {
     padding-top: 500px;
-}
-
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 100%;
-    }
 }

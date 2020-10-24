@@ -1,0 +1,15 @@
+.quotation {
+    margin: 0 0 50px;
+    p {
+        color: $neutral-dark;
+        font-size: 1.250rem;
+        font-weight: 300;
+        line-height: 2.438rem;
+        margin-bottom: 15px;
+    }
+    span {
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 300;
+    }
+}
