@@ -1,5 +1,16 @@
 .distribution-diagram {
     position: absolute;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+//space added to surrounding sections to give room for the distribution diagram
+.distribution-diagram--bottom-space {
+    padding-bottom: 300px;
+}
+
+.distribution-diagram--top-space {
+    padding-top: 500px;
 }
 
 @keyframes fade-in {

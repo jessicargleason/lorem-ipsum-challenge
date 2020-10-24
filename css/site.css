@@ -27,6 +27,14 @@ p {
   line-height: 1.8;
   font-weight: 300; }
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
 @font-face {
   font-family: "HK Grotesk Pro";
   src: url("./fonts/HKGroteskPro-Light.otf") format("opentype");
@@ -146,7 +154,15 @@ footer {
     color: #EEDD23; }
 
 .distribution-diagram {
-  position: absolute; }
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 50px; }
+
+.distribution-diagram--bottom-space {
+  padding-bottom: 300px; }
+
+.distribution-diagram--top-space {
+  padding-top: 500px; }
 
 @keyframes fade-in {
   0% {
@@ -157,7 +173,8 @@ footer {
 .circles {
   background-color: #fff;
   position: absolute;
-  right: 0; }
+  right: 0;
+  top: 0; }
 
 .circles svg .lines {
   transform: translate(0, 100px);
@@ -168,3 +185,37 @@ footer {
     transform: translate(0, 100px); }
   100% {
     transform: translate(0, 0); } }
+
+.diagram-list li {
+  position: relative; }
+
+.accordion h3 {
+  margin-bottom: 0; }
+
+.accordion button {
+  border: none;
+  background: none;
+  font-family: "HK Grotesk Pro";
+  color: #066D9F;
+  padding: 0;
+  display: inline-block;
+  font-size: 1.5rem; }
+  .accordion button:focus {
+    outline-offset: 5px; }
+  .accordion button:hover {
+    color: #F33437;
+    cursor: pointer; }
+  .accordion button:before {
+    content: "+"; }
+
+.accordion button[aria-expanded=true] {
+  position: absolute;
+  bottom: 0; }
+  .accordion button[aria-expanded=true]:before {
+    content: "\2212"; }
+
+.accordion button[aria-expanded=false] + div {
+  opacity: 0; }
+
+.accordion button[aria-expanded=true] + div {
+  opacity: 1; }
