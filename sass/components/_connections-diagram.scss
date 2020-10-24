@@ -1,0 +1,18 @@
+@keyframes lines-fade {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+.connections-diagram svg #connecting-lines path {
+    opacity: 0;
+    animation: lines-fade ease-in 1s forwards;
+}
+
+@for $i from 1 through 4 {
+    .connections-diagram svg #connecting-lines path:nth-child(#{$i}) {
+        animation-delay: .5s * $i;
+    }
+}
