@@ -15,16 +15,16 @@
                 <nav class="header-nav">
                     <ul class="list-unstyle">
                         <li>
-                            <a href="#" class="header-nav-link">Why Lorem?</a>
+                            <a href="#" class="header-nav__link">Why Lorem?</a>
                         </li>
                         <li>
-                            <a href="#" class="header-nav-link">How It Works</a>
+                            <a href="#" class="header-nav__link">How It Works</a>
                         </li>
                         <li>
-                            <a href="#" class="header-nav-link">Resources</a>
+                            <a href="#" class="header-nav__link">Resources</a>
                         </li>
                         <li>
-                            <a href="#" class="header-nav-link">Company</a>
+                            <a href="#" class="header-nav__link">Company</a>
                         </li>
                     </ul>
                     <a href="#" class="cta-link">Contact Us Today</a>
@@ -163,19 +163,27 @@
                     <a href="#" class="cta-link">Contact Us Today</a>
                 </section>
                 <footer>
-                    <a href="/">
-                        <img src="./images/site-logo-dark.svg" alt="Lorem Ipsum">
-                    </a>
-                    <a href="https://www.twitter.com">
-                        <img src="./images/social-twitter.svg" alt="Twitter" />
-                    </a>
-                    <a href="https://www.linkedin.com">
-                        <img src="./images/social-linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <ul>
+                    <div class="footer-logo">
+                        <a href="/">
+                            <img src="./images/site-logo-dark.svg" alt="Lorem Ipsum">
+                        </a>
+                        <ul class="list-unstyle footer-social">
+                            <li>
+                                <a href="https://www.twitter.com">
+                                    <img src="./images/social-twitter.svg" alt="Twitter" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com">
+                                    <img src="./images/social-linkedin.svg" alt="LinkedIn" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="footer-nav list-unstyle">
                         <li>
-                            <a href="#">Company</a>
-                            <ul>
+                            <a href="#" class="footer-nav__link">Company</a>
+                            <ul class="footer-subnav list-unstyle">
                                 <li>
                                     <a href="#">Team</a>
                                 </li>
@@ -191,8 +199,8 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Technology</a>
-                            <ul>
+                            <a href="#" class="footer-nav__link">Technology</a>
+                            <ul class="footer-subnav list-unstyle">
                                 <li>
                                     <a href="#">How it Works</a>
                                 </li>
@@ -202,8 +210,8 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Solutions</a>
-                            <ul>
+                            <a href="#" class="footer-nav__link">Solutions</a>
+                            <ul class="footer-subnav list-unstyle">
                                 <li>
                                     <a href="#">Lorem ipsum dolor sit</a>
                                 </li>
@@ -219,10 +227,10 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#" class="footer-nav__link">Contact</a>
                         </li>
                     </ul>
-                    <ul>
+                    <ul class="list-unstyle footer-legal">
                         <li>
                             <a href="#">Privacy</a>
                         </li>
