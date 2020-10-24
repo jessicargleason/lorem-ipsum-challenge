@@ -1,3 +1,9 @@
+.bg-neutral {
+  background-color: #F1F1F1; }
+
+.bg-tertiary {
+  background-color: #EEDD23; }
+
 *,
 *::before,
 *::after {
@@ -12,6 +18,14 @@ body {
   max-width: 1440px;
   margin: auto;
   outline: 1px solid green; }
+
+section {
+  padding: 120px; }
+
+p {
+  max-width: 480px;
+  line-height: 1.8;
+  font-weight: 300; }
 
 @font-face {
   font-family: "HK Grotesk Pro";
@@ -33,7 +47,8 @@ h1, h2 {
   font-weight: 300;
   font-size: 3rem;
   line-height: 4.063rem;
-  color: #000; }
+  color: #000;
+  max-width: 650px; }
 
 h3 {
   font-family: "HK Grotesk Pro";
@@ -125,7 +140,7 @@ footer {
   text-decoration: none; }
 
 .footer-legal a {
-  color: #979797;
+  color: #F1F1F1;
   text-decoration: none; }
   .footer-legal a:hover {
     color: #EEDD23; }

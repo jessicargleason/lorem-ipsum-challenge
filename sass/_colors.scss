@@ -1,6 +1,14 @@
 $primary: #066D9F; //blue
 $secondary: #F33437; //red
 $tertiary: #EEDD23; //yellow
-$neutral: #979797; //gray
+$neutral: #F1F1F1; //gray
 $neutral-dark: #767676; //dark gray
 $dark: #000; //black
+
+.bg-neutral {
+    background-color: $neutral;
+}
+
+.bg-tertiary {
+    background-color: $tertiary;
+}
