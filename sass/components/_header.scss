@@ -1,0 +1,22 @@
+header {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    ul {
+        display: flex;
+        padding-right: 50px;
+    }
+}
+
+.header-nav-link {
+    color: $neutral-dark;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}

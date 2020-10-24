@@ -3,9 +3,15 @@
 *::after {
   box-sizing: border-box; }
 
+body {
+  font-family: "HK Grotesk Pro";
+  font-size: 16px;
+  margin: 0; }
+
 .site-container {
   max-width: 1440px;
-  margin: auto; }
+  margin: auto;
+  outline: 1px solid green; }
 
 @font-face {
   font-family: "HK Grotesk Pro";
@@ -35,3 +41,43 @@ h3 {
   font-size: 2.250rem;
   line-height: 2.688rem;
   color: #000; }
+
+a {
+  color: #066D9F; }
+  a:hover, a:focus {
+    color: #F33437; }
+
+.cta-link {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #066D9F;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.125em; }
+  .cta-link:hover, .cta-link:focus {
+    outline: none;
+    border-bottom-color: #F33437; }
+
+.list-unstyle {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+header {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between; }
+
+.header-nav {
+  display: flex;
+  align-items: center; }
+  .header-nav ul {
+    display: flex;
+    padding-right: 50px; }
+
+.header-nav-link {
+  color: #767676;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600; }

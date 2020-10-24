@@ -4,7 +4,14 @@
 	box-sizing: border-box;
 }
 
+body {
+    font-family: "HK Grotesk Pro";
+    font-size: 16px;
+    margin: 0;
+}
+
 .site-container {
     max-width: 1440px;
     margin: auto;
+    outline: 1px solid green;
 }

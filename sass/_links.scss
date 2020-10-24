@@ -1,0 +1,19 @@
+a {
+    color: $primary;
+    &:hover, &:focus {
+        color: $secondary;
+    }
+}
+
+.cta-link {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $primary;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.125em;
+    &:hover, &:focus {
+        outline: none;
+        border-bottom-color: $secondary;
+    }
+}
