@@ -1,0 +1,19 @@
+.circles {
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+}
+
+.circles svg .lines {
+    transform: translate(0,100px);
+    animation: lines-up 1s ease-in forwards;
+}
+
+@keyframes lines-up {
+    0% {
+        transform: translate(0,100px);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}

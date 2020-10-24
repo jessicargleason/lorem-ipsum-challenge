@@ -1,0 +1,12 @@
+.distribution-diagram {
+    position: absolute;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
