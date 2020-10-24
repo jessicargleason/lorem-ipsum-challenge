@@ -16,3 +16,19 @@
     src: url("./fonts/HKGroteskPro-SemiBold.otf") format("opentype");
     font-weight: 600;
   }
+
+  h1, h2 {
+      font-family: "HK Grotesk Pro";
+      font-weight: 300;
+      font-size: 3rem;
+      line-height: 4.063rem;
+      color: #000;
+  }
+
+  h3 {
+    font-family: "HK Grotesk Pro";
+    font-weight: 300;
+    font-size: 2.250rem;
+    line-height: 2.688rem;
+    color: #000;
+  }
